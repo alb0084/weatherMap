@@ -5,8 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <div class="main">
+        <div id="search">
+            <label for="city">City name</label>
+            <input type="text" id="city">
+            <button type="button">Show Weather</button>
+        </div>
+        <div id="load">Loading...</div>
+        <div id="weather">
+            <h1 class="weathetCity">City Name</h1>
+            <div class="weatherDescription">Weather Description</div>
+            <div class="weatherTemperature">Weather Temperature</div>
+        </div>
+    </div>
+    <script>System.import('app.js')</script>
 </body>
 </html>
